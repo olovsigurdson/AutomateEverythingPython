@@ -9,3 +9,5 @@ while len(chosen_players)<3:
     chosen_players.append(chosen_one)
 
 print(chosen_players)
+print('heh')
+
