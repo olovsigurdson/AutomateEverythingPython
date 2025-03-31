@@ -1,0 +1,13 @@
+import requests
+
+facebook_token = 'EAAPRfEFux6MBO8Pd2rEg3H9184AhUTkOlFZCc23k5ftObRZCoDN1DMPlgyvPJJpxK8Jt2BZCa4x8yZAm3qR0NMmYUePo9SHZAnTZAZCL8Os3qCjnAqjlssDiqn8DaPBtc1c8iozZB3OZBVJd2bOHEE32M8WPkZCOwp9JQZA9IXileL2voznZCm9KmLLODtZAZC3yyXQ1bHPZBSx2ftFZCPjktwUZD'
+
+url = "https://graph.facebook.com/v21.0/me?fields=id%2Cname&access_token=EAAPRfEFux6MBO9yTLrx5d8lYRCVkvZCMwyG9GpvxZCiic26dM9LmZC3CeEImmKxKZAKYC8Dcmd6Xfu0rRiggAyTVnOoZAxhFhoJNDt7kWrZAVG5SC7RaQf5QsoZCCb1YAQTpWCvABGZBWrZAFQ8l4vZAN0z2H3JZABwJjuqhvIZCx0RFDrZAuhM8SRjan2ZCnrS9AjQbEKZBVV2ZBWlm5j3aoSQZD"
+
+response = requests.get(url)
+
+print(response.text)
+
+
+
+
