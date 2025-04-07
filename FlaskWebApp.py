@@ -21,3 +21,4 @@ def home_post():
 
 app.run()
 
+print('hej')
