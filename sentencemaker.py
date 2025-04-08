@@ -25,7 +25,7 @@ text2 = QLineEdit()
 
 button = QPushButton(text="Klicka här")
 
-label = QLabel("Label")
+label = QLabel()
 
 combo = QComboBox()
 combo.addItem("Svenska")

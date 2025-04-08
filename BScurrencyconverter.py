@@ -14,7 +14,7 @@ def get_currency(in_currency, out_currency):
     return float(result[:-4])
 
 
-print(get_currency('EUR', 'SEK'))
+#print(get_currency('EUR', 'SEK'))
 #<span class="ccOutputRslt">10.51<span class="ccOutputTrail">8588</span><span class="ccOutputCode"> SEK</span></span>
 #</div>
 
